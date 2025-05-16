@@ -1,0 +1,64 @@
+:root{
+    --gray-bg: rgba(243, 244, 246, 1);
+    --gray-font: rgba(31, 41, 55, 1);
+    --red-bg: rgba(254, 226, 226, 1);
+    --red-font: rgba(153, 27, 27, 1);
+    --yellow-bg: rgba(254, 243, 199, 1);
+    --yellow-font: rgba(146, 64, 14, 1);
+    --green-bg: rgba(209, 250, 229, 1);
+    --green-font: rgba(6, 95, 70, 1);
+    --blue-bg: rgba(219, 234, 254, 1);
+    --blue-font: rgba(30, 64, 175, 1);
+    --indigo-bg: rgba(224, 231, 255, 1);
+    --indigo-font: rgba(55, 48, 163, 1);
+    --purple-bg: rgba(237, 233, 254, 1);
+    --purple-font: rgba(91, 33, 182, 1);
+    --pink-bg: rgba(252, 231, 243, 1);
+    --pink-font: rgba(157, 23, 77, 1);
+}
+
+.badge{
+    background-color: var(--gray-bg);
+    color: var(--gray-font);
+    padding: 6px 16px;
+    border-radius: 3px;
+}
+
+.badge.pill{
+    border-radius: 20px;
+}
+
+.badge.red{
+    background-color: var(--red-bg);
+    color: var(--red-font);
+}
+
+.badge.yellow{
+    background-color: var(--yellow-bg);
+    color: var(--yellow-font);
+}
+
+.badge.green{
+    background-color: var(--green-bg);
+    color: var(--green-font);
+}
+
+.badge.blue{
+    background-color: var(--blue-bg);
+    color: var(--blue-font);
+}
+
+.badge.indigo{
+    background-color: var(--indigo-bg);
+    color: var(--indigo-font);
+}
+
+.badge.purple{
+    background-color: var(--purple-bg);
+    color: var(--purple-font);
+}
+
+.badge.pink{
+    background-color: var(--pink-bg);
+    color: var(--pink-font);
+}

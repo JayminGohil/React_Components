@@ -1,0 +1,76 @@
+/* Badges */
+.badges-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px dashed rgba(243, 244, 246, 1);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.badgeDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* Banners */
+.banners-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px dashed rgba(243, 244, 246, 1);
+    border-radius: 10px;
+    padding: 25px;
+    width: 90%;
+}
+
+.banners-container>.multiline-banners-container,
+.singleline-banners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+
+/* Cards */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    border: 1px dashed rgba(243, 244, 246, 1);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .badges-container {
+        border: none;
+        border-radius: 0px;
+        padding: 5px;
+    }
+
+    .banners-container {
+        gap: 10px;
+        border: none;
+        border-radius: 0px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .cards-container {
+        border: none;
+        border-radius: 0px;
+        padding: 5px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,132 @@
+:root {
+
+    --success-bg: rgba(236, 253, 245, 1);
+    --success-main: rgba(6, 95, 70, 1);
+    --success-sub: rgba(4, 120, 87, 1);
+    --success-icon: rgba(52, 211, 153, 1);
+
+    --warning-bg: rgba(255, 251, 235, 1);
+    --warning-main: rgba(146, 64, 14, 1);
+    --warning-sub: rgba(180, 83, 9, 1);
+    --warning-icon: rgba(251, 191, 36, 1);
+
+    --error-bg: rgba(254, 242, 242, 1);
+    --error-main: rgba(146, 64, 14, 1);
+    --error-sub: rgba(180, 83, 9, 1);
+    --error-icon: rgba(248, 113, 113, 1);
+
+    --neutral-bg: rgba(239, 246, 255, 1);
+    --neutral-main: rgba(30, 64, 175, 1);
+    --neutral-sub: rgba(28, 81, 185, 1);
+    --neutral-icon: rgba(96, 165, 250, 1);
+}
+
+.Banner {
+    background-color: var(--neutral-bg);
+    display: flex;
+    padding: 16px;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    border-radius: 6px;
+    min-width: 90%;
+    max-width: 90%;
+}
+
+.Banner>.text {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.Banner>.text>.text-main {
+    color: var(--neutral-main);
+    font-weight: 600;
+}
+
+.Banner>.text>.text-sub {
+    color: var(--neutral-sub);
+    font-weight: 400;
+}
+
+.Banner>.icon {
+    color: var(--neutral-icon);
+}
+
+/* Background */
+
+.Banner.success {
+    background-color: var(--success-bg);
+}
+
+.Banner.error {
+    background-color: var(--error-bg);
+}
+
+.Banner.warning {
+    background-color: var(--warning-bg);
+}
+
+/* Icons */
+.Banner.success>.icon {
+    color: var(--success-icon);
+}
+
+.Banner.error>.icon {
+    color: var(--error-icon);
+}
+
+.Banner.warning>.icon {
+    color: var(--warning-icon);
+}
+
+/* Main-Text */
+.Banner.success>.text>.text-main {
+    color: var(--success-main);
+    font-weight: 600;
+}
+
+.Banner.error>.text>.text-main {
+    color: var(--error-main);
+    font-weight: 600;
+}
+
+.Banner.warning>.text>.text-main {
+    color: var(--warning-main);
+    font-weight: 600;
+}
+
+/* Sub-Text */
+.Banner.success>.text>.text-sub {
+    color: var(--success-sub);
+    font-weight: 400;
+}
+
+.Banner.error>.text>.text-sub {
+    color: var(--error-sub);
+    font-weight: 400;
+}
+
+.Banner.warning>.text>.text-sub {
+    color: var(--warning-sub);
+    font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+    .Banner {
+        padding: 10px;
+        border-radius: 6px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .Banner>.text>.text-main {
+        font-size: 16px;
+    }
+
+    .Banner>.text>.text-sub {
+        color: var(--neutral-sub);
+        font-weight: 400;
+    }
+}
