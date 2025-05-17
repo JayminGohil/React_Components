@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: 1px dashed rgba(243, 244, 246, 1);
     border-radius: 10px;
     padding: 25px;
 }
@@ -16,13 +15,11 @@
     gap: 10px;
 }
 
-
 /* Banners */
 .banners-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: 1px dashed rgba(243, 244, 246, 1);
     border-radius: 10px;
     padding: 25px;
     width: 90%;
@@ -45,14 +42,41 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
-    border: 1px dashed rgba(243, 244, 246, 1);
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+/* Testimonials */
+.testimonials-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+/* Tooltips */
+.tooltips-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
     .badges-container {
         border: none;
         border-radius: 0px;
@@ -72,5 +96,11 @@
         border-radius: 0px;
         padding: 5px;
         padding-bottom: 30px;
+    }
+
+    .testimonials-container {
+        border: none;
+        border-radius: 0px;
+        padding: 5px;
     }
 }

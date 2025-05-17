@@ -3,8 +3,8 @@ import './App.css'
 import BadgesShowcase from './Showcase/BadgesShowcase'
 import BannerShowcase from './Showcase/BannersShowcase'
 import CardsShowcase from './Showcase/CardsShowcase'
-
-// import Testimonial from './components/Testimonials/Testimonial'
+import TestimonialsShowcase from './Showcase/TestimonialsShowcase'
+import TooltipsShowcase from './Showcase/TooltipsShowcase'
 
 function App() {
   return (
@@ -17,13 +17,8 @@ function App() {
         <BadgesShowcase />
         <BannerShowcase />
         <CardsShowcase />
-
-
-        {/* <span className="heading md">
-          Testimonial
-        </span>
-
-        <Testimonial /> */}
+        <TestimonialsShowcase />
+        <TooltipsShowcase />
       </main>
     </>
   )

@@ -1,5 +1,5 @@
 import '../styles/Showcase.css'
-import Banner from '../components/Banner/index'
+import Banner from '../components/Banner/Banner'
 
 export default function BannerShowcase() {
     return (

@@ -35,3 +35,20 @@ export default function Banner({ children, variant="", ...rest}) {
         </div>
     )
 }
+
+Banner.Title = function BannerTitle({children}){
+    return (
+        <span className="text-main">
+            {children}
+        </span>
+    )
+}
+
+Banner.Subtitle = function BannerSubtitle({ children }) {
+    return (
+        children &&
+        <span className="text-sub">
+            {children}
+        </span>
+    )
+}

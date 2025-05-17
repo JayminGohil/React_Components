@@ -1,5 +1,6 @@
 .testimonial-container {
-    height: 350px;
+    min-height: 350px;
+    height: auto;
     display: flex;
     align-items: center;
     position: relative;

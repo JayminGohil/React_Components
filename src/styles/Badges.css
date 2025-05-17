@@ -22,6 +22,7 @@
     color: var(--gray-font);
     padding: 6px 16px;
     border-radius: 3px;
+    max-width: fit-content;
 }
 
 .badge.pill{

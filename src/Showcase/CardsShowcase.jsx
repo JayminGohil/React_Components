@@ -1,4 +1,4 @@
-import Card from '../components/Card/index'
+import Card from '../components/Card/Card'
 import '../styles/Showcase.css'
 import { FaGoogleDrive, FaSpotify, FaFigma } from "react-icons/fa";
 import { SiGoogledocs, SiOpenai, SiScrimba } from "react-icons/si";
